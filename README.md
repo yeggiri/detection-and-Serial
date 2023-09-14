@@ -1,3 +1,17 @@
+#just arduino_blutooth
+rx,tx 반대로 연결 **
+참조 : https://m.blog.naver.com/sisosw/221518483163
+
+
+
+
+
+
+
+
+
+
+
 # detection-and-Serial
 #아두이노 
 char cmd[50];  // Create a character array to store the incoming data
