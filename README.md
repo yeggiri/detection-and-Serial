@@ -79,8 +79,8 @@ while True:
         print(response[:len(response)-1].decode())
 
 #파이썬 코드 - yolo
-if __name__ == '__main__': 밑에     py_serial = serial.Serial("COM18",115200)
-그리고
+if __name__ == '__main__': 밑에     py_serial = serial.Serial("COM18",115200)  #중요!
+#그리고
 for path, im, im0s, vid_cap, s in dataset:
     # ...
 
