@@ -43,8 +43,6 @@ void loop() {
     }
     // Clear the cmd array to prepare for the next input
     memset(cmd, 0, sizeof(cmd));
- 
-
   }
 }
 
@@ -99,3 +97,7 @@ for path, im, im0s, vid_cap, s in dataset:
         num_doors_detected = len(det)
         py_serial.write(str(num_doors_detected).encode())
         time.sleep(0.1)
+
+
+  #droid cam and yolo
+   python detect.py --weights yolov5s.pt --source http://192.168.0.14:4747/video
